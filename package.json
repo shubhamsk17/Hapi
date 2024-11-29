@@ -1,0 +1,25 @@
+{
+    "name": "hapi-api",
+    "version": "1.0.0",
+    "description": "A REST API built with Hapi.js",
+    "main": "src/server.js",
+    "scripts": {
+      "start": "node src/server.js",
+      "test": "jest"
+    },
+    "dependencies": {
+      "@hapi/hapi": "^20.1.2",
+      "bcryptjs": "^2.4.3",
+      "jsonwebtoken": "^8.5.1",
+      "joi": "^17.4.0",
+      "sequelize": "^6.31.0",
+      "mysql2": "^3.1.0"
+    },
+    "devDependencies": {
+      "jest": "^29.5.0",
+      "supertest": "^6.3.1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+  
